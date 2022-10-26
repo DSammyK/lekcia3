@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block vs Inline</title>
+
+    <style>
+        h1{
+            color: red;
+        }
+
+        p{
+            color: orange;
+        }
+
+        span{
+            color: violet;
+        }
+
+        .domov{
+            font-size: 30px;
+            border: 4px solid rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>block element p</p>
+        <table>block element table</table>
+        <h1>taktiez block element h1</h1>
+        <ul>
+            <li>block list</li>
+            <li>element ul</li>
+        </ul>
+    </div>
+<hr>
+<span>inline element SPAN</span>
+<span>DRUHY inline element SPAN</span>
+<a href="#">inline element link</a>
+<img src="https://i1.wp.com/www.differencebetween.com/wp-content/uploads/2018/02/Difference-Between-Block-and-Inline-Elements-fig-1.png" alt="" style="width: 100px;">
+<hr>
+
+<h2>ZMENA ELEMENTOV</h2>
+<div>
+    <p>block element p</p>
+    <table style="display:inline;">block element table zmena na inline</table>
+    <h1 style="display: inline;">taktiez block element h1 ZMENENI NA INLINE</h1>
+    <ul>
+        <li>block list</li>
+        <li>element ul</li>
+    </ul>
+    <span style="display: block;">SPAN ZMENENY NA BLOCK element</span>
+    <span>SPAN KTORY JE DEFAULTNE INL:INE</span>
+    <img src="https://i1.wp.com/www.differencebetween.com/wp-content/uploads/2018/02/Difference-Between-Block-and-Inline-Elements-fig-1.png" alt="" style="width: 100px;">
+    <img src="https://i1.wp.com/www.differencebetween.com/wp-content/uploads/2018/02/Difference-Between-Block-and-Inline-Elements-fig-1.png" alt="" style="width: 100px; display: block;">
+    <span>OBRAZOK ZMENENY NA BLOCk</span>
+    <a href="./index.html" class="domov">Zober ma na domovsku stranku</a>
+</div>
+
+</body>
+</html>
